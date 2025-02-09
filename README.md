@@ -1,7 +1,3 @@
-### Professional CV (Minified)
+### Professional CV
 
-Striped version of the original, removing only the following:
-
-- Relevant Coursework
-- Certificates
-- Technical skills
+The full original version of my CV.
