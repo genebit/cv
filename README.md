@@ -1,3 +1,1 @@
-### Professional CV
-
-The full original version of my CV.
+### Professional CV and Resume
