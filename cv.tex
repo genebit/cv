@@ -5,9 +5,8 @@
 % License : MIT
 %-------------------------------------------%
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[a4paper,11pt]{article}
 
-\usepackage{multicol}
 \usepackage{fontawesome5}
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -20,6 +19,7 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\usepackage{mathptmx}
 \input{glyphtounicode}
 
 \pagestyle{fancy}
@@ -59,13 +59,13 @@
 % This file includes various sections of a curriculum vitae (CV) document.
 % The sections are imported using the \input command.
 
-\input{sections/heading}         % Import the heading section
-\input{sections/experience}      % Import the experience section
-\input{sections/projects}        % Import the projects section
-\input{sections/achievements.tex}% Import the certification section
-\input{sections/certification}   % Import the certification section
-\input{sections/skills.tex}      % Import the skills section
-\input{sections/education.tex}   % Import the education section
-\input{sections/references.tex}  % Import the education section
+\input{resume/latest/sections/heading}         % Import the heading section
+\input{sections/education}                     % Import the education section
+\input{resume/latest/sections/skills}          % Import the skills. section
+\input{resume/latest/sections/experience}      % Import the experience section
+\input{sections/projects}                      % Import the projects section
+\input{sections/achievements}                  % Import the achievements section
+\input{sections/certification}                 % Import the certification section
+\input{sections/references.tex}                % Import the education section
 
 \end{document}
